@@ -1,3 +1,3 @@
-SELECT P.product_name, S.year, S.price
-FROM SALES AS S, PRODUCT AS P
-WHERE S.product_id=P.product_id
+SELECT product_name, year, price
+FROM sales s, product p
+WHERE s.product_id=p.product_id
